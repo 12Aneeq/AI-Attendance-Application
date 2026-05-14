@@ -6,8 +6,8 @@ import io
 
 @st.dialog("Share Class Link")
 def share_subject_dialog(subject_name, subject_code):
-    #UPDATE THE STREAMLIT DOMAIN URL AFTER DEPLOYMENT
-    app_domain = "snapvoice-main.streamlit.app"
+    #UPDATED STREAMLIT DOMAIN URL AFTER DEPLOYMENT
+    app_domain = "https://ai-attendance-applicationgit-u3tudagbnw3ojjhcgpuzqe.streamlit.app"
     join_url = f"{app_domain}/?join-code={subject_code}"
 
     st.header("Scan to Join")
