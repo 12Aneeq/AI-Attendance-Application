@@ -17,7 +17,7 @@ def home_screen():
             "<h2 style='color: #131313;'>I'm Student</h2>",
                 unsafe_allow_html=True
             )
-        st.image("assets\student_img.png", width=150)
+        st.image("assets/student_img.png", width=150)
         if st.button('Student Portal', type='primary', icon=':material/arrow_outward:', icon_position='right'):
             st.session_state['login_type']='student'
             st.rerun()
